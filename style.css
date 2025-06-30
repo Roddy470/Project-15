@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+}
+
+div {
+  overflow: hidden;
+}
+
+h3 {
+  color: hsl(0,0%,7%);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+}
+
+.container .main {
+  background: hsl(256,67%,59%);
+  padding: 40px 40px 32px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container .main h1 {
+  color: hsl(0,0%,100%);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 0.9;
+  margin-bottom: 18px;
+}
+
+.container .main h1 span {
+  color: hsl(39,100%,71%);
+}
+
+.container .main h1 em {
+  font-style: italic;
+}
+
+.container .main img {
+  width: 70%;
+  margin-bottom: 2px;
+}
+
+.container .main p {
+  color: hsl(0,0%,100%);
+}
+
+
+
+
+.container .manage-account {
+  background: hsl(0,0%,100%);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container .manage-account .socials {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.container .manage-account .socials > div {
+  background: hsl(0,0%,100%);
+  width: 135px;
+  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 5px 5px 0;
+  border-radius: 40px;
+  box-shadow: 0px 4px 10px -10px;
+  margin-bottom: 12px;
+}
+
+.container .manage-account .socials div i {
+  background: hsl(39,100%,71%);
+  font-size: 20px;
+  color: hsl(256,67%,59%);
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.container .manage-account .socials div div {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .manage-account .socials div div h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(0,0%,7%);
+}
+
+.container .manage-account .socials div div p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: hsl(0,0%,50%);
+}
+
+.container .manage-account h3 {
+  margin-top: 12px;
+  background: transparent;
+}
+
+
+
+
+
+
+
+.container .consistent-schedule {
+  background: hsl(39,100%,71%);
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  height: 175px;
+}
+
+.container .consistent-schedule h3 {
+  margin-bottom: 15px;
+}
+
+.container .consistent-schedule img {
+  width: 60%;
+}
+
+
+.container .post-schedule {
+  background: hsl(254,88%,90%);
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 10px;
+}
+
+.container .post-schedule img {
+  margin: 20px 0;
+}
+
+.container .post-schedule p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0 12px;
+}
+
+
+
+
+
+.container .grow-followers {
+  background: hsl(256,67%,59%);
+  padding: 20px 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container .grow-followers h2 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: hsl(0,0%,100%);
+  margin: 30px 0 0;
+}
+
+
+
+.container .audience-growth {
+  background: hsl(0,0%,100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .audience-growth h1 {
+  color: hsl(0,0%,7%);
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;  
+}
+
+
+.container .audience-growth p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container .audience-growth img {
+  width: 60%;
+}
+
+
+.container .create-post {
+  background: hsl(31,66%,93%);
+  padding: 28px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.container .create-post h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: hsl(0,0%,7%);
+  line-height: 0.9;
+  margin-bottom: 20px;
+}
+
+.container .create-post h2 span {
+  font-style: italic;
+  color: hsl(256,67%,59%);
+}
+
+.container .create-post img {
+  width: 65%;
+}
+
+
+.container .ai-content {
+  background: hsl(39,100%,71%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .ai-content h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: hsl(0,0%,7%);
+  line-height: 0.9;
+  margin-bottom: 20px;
+}
+
+.container .ai-content img {
+  width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1000px){
+  .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 200px;
+    margin-top: 60px;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+  
+  .container .main {
+    grid-column: 2/4;
+    padding: 50px 40px 42px;
+  }
+  
+  .container .main h1 {
+    font-size: 3.3rem;
+    margin-bottom: 24px;
+  }
+  
+  .container .main img {
+    width: 43%;
+    margin-bottom: 5px;
+  }
+  
+  .container .main p {
+    font-size: 1.1rem;
+  }
+  
+  
+  .container .manage-account {
+    grid-area: 2/2/3/3;
+    padding-right: 0;
+  }
+  
+  .container .manage-account .socials > div {
+    margin-right: 20px;
+  }
+  
+  .container .consistent-schedule {
+    grid-area: 2/3/3/4;
+    height: 175px;
+    padding: 25px;
+  }
+  
+  .container .consistent-schedule img {
+    width: 100%;
+  }
+  
+  .container .post-schedule {
+    grid-area: 1/4/3/5;
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .container .post-schedule img {
+    width: 130%;
+  }
+  
+  .container .grow-followers {
+    grid-area: 3/3/4/5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .grow-followers img {
+    width: 40%;
+  }
+  
+  .container .grow-followers h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    align-content: center;
+  }
+  
+  .container .audience-growth {
+    grid-area: 3/2/4/3;
+    padding: 15px;
+  }
+  
+  .container .audience-growth h1 {
+    font-size: 3.6rem;
+    margin-bottom: 8px;
+  }
+  
+  .container .audience-growth p {
+    margin-bottom: 15px;
+  }
+  
+  .container .audience-growth img {
+    width: 80%;
+  }
+  
+  .container .content-creation {
+    grid-area: 1/1/4/2;
+  }
+  
+  .container .create-post {
+    height: 36%;
+  }
+  
+  .container .create-post h2 {
+    font-size: 2.2rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+  
+  .container .create-post img {
+    width: 100%;
+  }
+  
+  
+  .container .ai-content h2 {
+    font-size: 2.2rem;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 42px;
+  }
+  
+  .container .ai-content img {
+    width: 105%;
+  }
+  
+}
