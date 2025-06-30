@@ -272,7 +272,7 @@ img {
 
 
 
-@media(min-width:1000px){
+@media(min-width: 740px){
   .container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto 200px;
